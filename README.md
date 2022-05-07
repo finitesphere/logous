@@ -1,9 +1,9 @@
 ## About
-The python script allows the user to write a log post which includes a title, date, and the content of the post itself, all inside the comfort of a command-line interface. This repository contains my python script, html, and css file for my log website. You can change out the html and css files with your own files.
+The python script allows the user to write a log post which includes a title, date, and the content of the post itself, all inside the comfort of a command-line interface. This repository contains my python script, html, and css file for my log website. You can change out the html and css files with your own files. A little side note here: You can use this script as an offline html file log maker, you don't need to upload to neocities. Also I created this script a year or so ago. The commit date of it on github is not the actual creation of the script.
 
 ## Requirements
 * Python3 
-* Neocities account and neocities CLI software (You can change this to upload to GitHub Pages instead of Neocities)
+* Neocities account and neocities CLI software (You can change this to upload to GitHub Pages instead of Neocities by changing the neocities command)
 * Python module requirements: BeautifulSoup4, datetime, and subprocess
 * CLI enviroment (Preferably a GNU/Linux BASH terminal)
 
