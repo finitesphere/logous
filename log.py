@@ -47,7 +47,7 @@ def log():
         soup.prettify()
         
         # Using neocities to host the static blogpost website
-        # You will have to be in the working directory as the script, html, and css are located in. You will also need to change what is in the cwd.
+        # You will have to be in the working directory as the script, html, and css are located in. You will also need to change the cwd.
         
         subprocess.call('neocities push -e log.py .', shell=True, cwd="/home/USER/log_website")
 
