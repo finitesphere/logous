@@ -8,7 +8,7 @@ The python script allows the user to write a log post which includes a title, da
 * CLI enviroment (Preferably a GNU/Linux BASH terminal)
 
 ## How To
-1. Git clone the repository. ```git clone https://github.com/mvfileslashdevslashnull/log_website```
+1. Git clone the repository. ```git clone https://github.com/finitesphere/log_website```
 2. Create or open the existing html and css file, configure it to your liking.
 3. Open the python script with your preferred text editor and change the name of the html, css, and python file if you have done so, then change the current working directory line in the python script. ```subprocess.run('neocities push -e log.py .', shell=True, cwd="/home/user/log_website")```
 4. Launch the program by entering ```python log.py``` into your command-line interface, if you changed the name of the python script file then simply put the file name after python in the command. Also note this CLI enviroment must support BASH commands.
