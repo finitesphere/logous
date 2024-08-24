@@ -1,19 +1,19 @@
 ## About
-The python script allows the user to write a log post which includes a title, date, and the content of the post itself, all inside the comfort of a command-line interface. This repository contains my python script, html, and css file for my log website. You can change out the html and css files with your own files. A little side note here: You can use this script as an offline html file log maker, you don't need to upload to neocities. Also I created this script a year or so ago. The commit date of it on github is not the actual creation of the script.
+The Python script allows the user to write a log post, which includes a title, date, and the content of the post itself, all within the comfort of a command-line interface. This repository contains my Python script, HTML, and CSS files for my log website. You can replace the HTML and CSS files with your own.
 
 ## Requirements
 * Python3 
 * Neocities account and neocities CLI software (You can change this to upload to GitHub Pages instead of Neocities by changing the neocities command)
 * Python module requirements: BeautifulSoup4, datetime, and subprocess
-* CLI enviroment (Preferably a GNU/Linux BASH terminal)
+* CLI enviroment (Preferably a Linux BASH terminal)
 
 ## How To
-1. Git clone the repository. ```git clone https://github.com/finitesphere/log_website```
-2. Create or open the existing html and css file, configure it to your liking.
-3. Open the python script with your preferred text editor and change the name of the html, css, and python file if you have done so, then change the current working directory line in the python script. ```subprocess.run('neocities push -e log.py .', shell=True, cwd="/home/user/log_website")```
-4. Launch the program by entering ```python log.py``` into your command-line interface, if you changed the name of the python script file then simply put the file name after python in the command. Also note this CLI enviroment must support BASH commands.
-5. Once the program is executed, you be asked to enter a title and content for the post.
-6. Lastly you will have the choice to submit the post or cancel it.
+1. Clone the repository: git clone https://github.com/finitesphere/log_website
+2. Create or open the existing HTML and CSS files, and configure them to your liking.
+3. Open the Python script with your preferred text editor. If you have changed the names of the HTML, CSS, or Python files, update the script accordingly. Also, modify the current working directory line in the Python script as needed: subprocess.run('neocities push -e log.py .', shell=True, cwd="/home/user/log_website")
+4. Launch the program by entering python log.py into your command-line interface. If you changed the name of the Python script file, use that name instead. Note that this CLI environment must support BASH commands.
+Once the program is running, you will be prompted to enter a title and content for the post.
+5. Finally, you will have the option to either submit the post or cancel it.
 
 ## Help
-If you get any errors remember to change your current working directory to a directory with the script, html, and css files. Other errors can occur if you do not have any h2 or p tags in your html file. I created and executed this python script on a GNU/Linux operating system, the script should work on other operating systems that can utilize BASH commands. Any more help, questions, or comments please leave them under the issues page of this GitHub repository.
+If you encounter any errors, remember to change your current working directory to the directory containing the script, HTML, and CSS files. Other errors may occur if your HTML file does not include <h2> or <p> tags. I created and executed this Python script on a GNU/Linux operating system, but it should work on other operating systems that support BASH commands. For any further help, questions, or comments, please leave them on the issues page of this GitHub repository.
